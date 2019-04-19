@@ -21,6 +21,17 @@
   align-items: center;
 }
 
+.chat-header .header__header-column:first-child {
+  width: 55%;
+  display: flex;
+  position: relative;
+}
+
+.chat-header .header__header-column:first-child > h1 {
+  position: absolute;
+  right: 0;
+}
+
 .header .header__back-btn {
   font-size: 20px;
   margin-right: 20px;
